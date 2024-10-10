@@ -1,0 +1,26 @@
+.productDetail {
+    padding: 20px;
+    background-color: #4caf4fad;
+    border-radius: 8px;
+  }
+  
+  .backButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  

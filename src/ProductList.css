@@ -1,0 +1,29 @@
+
+  .product-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  .product-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+  .product-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .product-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+  .selected {
+    background-color: #00000087;
+    color: white;
+    transition: background-color 0.55s;
+}
+  

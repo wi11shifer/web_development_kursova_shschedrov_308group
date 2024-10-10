@@ -1,0 +1,52 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background-color: rgb(32, 172, 51);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  color: black;
+}
+
+.modalContent h2{
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modalEnter {
+  opacity: 0;
+  transform: scale(0.95);
+}
+.modalEnterActive {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
+.modalExit {
+  opacity: 1;
+  transform: scale(1);
+}
+.modalExitActive {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+}
