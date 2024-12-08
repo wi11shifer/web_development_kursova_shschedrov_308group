@@ -1,22 +1,9 @@
+// hooks/useHistoryTracker.js
 import { useState, useEffect } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { useHistoryContext } from '../Contexts/HistoryContext';
 
 export const useHistoryTracker = () => {
-  const [history, setHistory] = useState([]);
-  const location = useLocation();
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    setHistory((prevHistory) => [...prevHistory, location.pathname]);
-  }, [location]);
-
-  const goBack = () => {
-    if (history.length > 1) {
-      const newHistory = [...history];
-      newHistory.pop();
-      navigate(newHistory[newHistory.length - 1]);
-    }
-  };
-
-  return { history, goBack };
+  const history = useHistoryContext();
+  return { history };
 };

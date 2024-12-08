@@ -1,0 +1,82 @@
+[
+  { 
+    "id": 1, 
+    "name": "Kobzar", 
+    "author": "Taras Shevchenko", 
+    "priceUAH": 500, 
+    "category": "Poetry",
+    "coverUrl": "https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/i/m/img_12076.jpg" 
+  },
+  { 
+    "id": 2, 
+    "name": "Shadows of Forgotten Ancestors", 
+    "author": "Mykhailo Kotsiubynsky", 
+    "priceUAH": 600, 
+    "category": "Prose",
+    "coverUrl": "https://content1.rozetka.com.ua/goods/images/big/344144908.jpg" 
+  },
+  { 
+    "id": 3, 
+    "name": "The Black Council", 
+    "author": "Panteleimon Kulish", 
+    "priceUAH": 450, 
+    "category": "Historical",
+    "coverUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1678445616i/7177082.jpg" 
+  },
+  { 
+    "id": 4, 
+    "name": "Maria", 
+    "author": "Ulas Samchuk", 
+    "priceUAH": 520, 
+    "category": "Historical",
+    "coverUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkN-T0n7jqgLbqPKwX8rl0J4wOEyJLEZlIZFW0eExODp4NKzL0r2XmKR_dafpA0yh7g9nLRaSXvdaU-flyQnnL0wZTj3YENbWuZbmZzCWWGyvKFlZiHJeBw3grFdh2uuaXAPuiByIRjh0/s1600/Maria-Ulas-Samchuk.jpg" 
+  },
+  { 
+    "id": 5, 
+    "name": "Forest Song", 
+    "author": "Lesya Ukrainka", 
+    "priceUAH": 380, 
+    "category": "Drama",
+    "coverUrl": "https://nashformat.ua/files/products/ebook-lisova-pisnya-628070.270x390.jpeg?241203060102" 
+  },
+  { 
+    "id": 6, 
+    "name": "Tiger Trappers", 
+    "author": "Ivan Bahrianyi", 
+    "priceUAH": 450, 
+    "category": "Adventure",
+    "coverUrl": "https://static.bookssecondlife.com.ua/wa-data/public/shop/products/37/31/13137/images/39515/39515.2500.jpeg" 
+  },
+  { 
+    "id": 7, 
+    "name": "Eneida", 
+    "author": "Ivan Kotliarevsky", 
+    "priceUAH": 420, 
+    "category": "Satire",
+    "coverUrl": "https://i.lb.ua/066/35/5996efb55456a.jpeg" 
+  },
+  { 
+    "id": 8, 
+    "name": "Sobor", 
+    "author": "Oles Honchar", 
+    "priceUAH": 480, 
+    "category": "Prose",
+    "coverUrl": "https://content2.rozetka.com.ua/goods/images/big/265962561.png" 
+  },
+  { 
+    "id": 9, 
+    "name": "The City", 
+    "author": "Valerian Pidmohylny", 
+    "priceUAH": 500, 
+    "category": "Modernist",
+    "coverUrl": "https://cdn.27.ua/799/25/b3/8594867_1.jpeg" 
+  },
+  { 
+    "id": 10, 
+    "name": "Sherlock Holmes", 
+    "author": "Arthur Conan Doyle", 
+    "priceUAH": 550, 
+    "category": "Detective",
+    "coverUrl": "https://content1.rozetka.com.ua/goods/images/big/311784176.jpg" 
+  }
+]

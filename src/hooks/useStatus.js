@@ -1,3 +1,4 @@
+// hooks/useStatus.js
 import { useState, useEffect } from 'react';
 
 export const useStatus = () => {
